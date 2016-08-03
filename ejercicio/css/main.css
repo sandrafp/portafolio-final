@@ -106,7 +106,7 @@ section:first-of-type {
     -ms-transform: scale(1.1) rotate(360deg);
     transform: scale(1.1) rotate(360deg); }
   #skills .skill {
-    padding: 50px 0 20px 0; }
+    padding: 10px 0 0 0; }
   #skills img {
     width: 100%; }
   #skills .materialize-icon {
@@ -122,29 +122,31 @@ section:first-of-type {
 
 #contact-us {
   background-color: #1d0215;
-  padding-bottom: 250px;
   color: #ffffff; }
+  #contact-us .iconos-redes {
+    margin-bottom: 40px; }
   #contact-us a {
     text-decoration: none;
-    color: none; }
+    color: none;
+    color: white;
+    font-size: 20px;
+    display: block; }
+    #contact-us a:focus {
+      border: none;
+      background: transparent; }
   #contact-us .fa {
     color: white;
-    font-size: 40px;
-    border: 6px solid white;
-    border-radius: 50%;
-    padding: 20px;
-    margin-right: 40px; }
-  #contact-us .fa.fa-envelope-o {
-    border: none;
-    margin-bottom: none; }
-  #contact-us .contact-block {
-    font-size: 20px; }
+    font-size: 60px; }
   #contact-us .fa-twitter:hover {
     color: #36d8ff; }
   #contact-us .fa-phone:hover {
     color: black; }
   #contact-us .fa-linkedin-square:hover {
     color: #0077b6; }
+  #contact-us hr {
+    border-color: #ffffff; }
+  #contact-us .col-md-2 {
+    padding: 80px 0 100px 0; }
 
 footer {
   background-color: #1d0219;
@@ -236,8 +238,8 @@ figure.effect-sadie figcaption::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
-  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  background: -webkit-linear-gradient(top, rgba(29, 2, 21, 0) 0%, rgba(29, 2, 21, 0.8) 75%);
+  background: linear-gradient(to bottom, rgba(29, 2, 21, 0) 0%, rgba(29, 2, 21, 0.8) 75%);
   content: '';
   opacity: 0;
   -webkit-transform: translate3d(0, 50%, 0);
