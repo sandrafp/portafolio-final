@@ -96,6 +96,8 @@ section:first-of-type {
     padding-top: 20px; }
   #trabajos img {
     height: 200px; }
+  #trabajos .row figure {
+    margin-bottom: 22px; }
 
 #skills {
   margin-top: 70px; }
@@ -168,14 +170,6 @@ img.grayscale {
 img.grayscale:hover {
   filter: none;
   -webkit-filter: grayscale(0%); }
-
-.grid {
-  position: relative;
-  margin: 0 auto;
-  padding: 0em 0 4em;
-  max-width: 1000px;
-  list-style: none;
-  text-align: center; }
 
 /* Common style */
 .grid figure {
@@ -296,7 +290,12 @@ figure.effect-sadie:hover p {
     padding: 0; }
 
   #contact-us .col-md-2:nth-of-type(2) {
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; }
+
+  #home {
+    height: 100vh; }
+    #home .capa {
+      height: 100%; } }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
