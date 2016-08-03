@@ -191,7 +191,7 @@ img.grayscale:hover {
   background: #3085a3;
   text-align: center;
   cursor: pointer;
-  border: 3px solid #340216; }
+  border: 4px solid #340216; }
 
 .grid figure img {
   position: relative;
@@ -286,10 +286,9 @@ figure.effect-sadie:hover p {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .grid figure {
-    width: 90%;
-    margin-left: 5%; }
+    min-width: 250px; }
 
   .css-img {
     max-height: 80px; }
@@ -431,4 +430,4 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css%7D.map */
