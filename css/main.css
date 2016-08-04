@@ -11,7 +11,7 @@
 header {
   position: fixed;
   width: 100%;
-  z-index: 9999999; }
+  z-index: 999999; }
 
 .navbar-default {
   background: transparent;
@@ -29,6 +29,11 @@ header {
     .navbar-default .navbar-toggle:focus {
       background: rgba(0, 0, 0, 0.2);
       border: none; }
+  .navbar-default .navbar-toggle .collapsed {
+    background: transparent;
+    border: none; }
+  .navbar-default .navbar-header {
+    border-color: transparent; }
   .navbar-default button.navbar-toggle {
     background: transparent;
     border-color: transparent; }
@@ -39,9 +44,13 @@ header {
   background: rgba(29, 2, 21, 0.7); }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  padding: 0;
   font-family: Lato;
   background: rgba(29, 2, 21, 0.1); }
+  body a:visited, body a:active, body:focus {
+    border: none;
+    outline: none; }
   body h1 {
     margin-bottom: 0; }
   body hr {
@@ -88,7 +97,7 @@ section:first-of-type {
   background: #1d0215;
   color: #ffffff;
   padding-top: 30px;
-  padding-bottom: 50px; }
+  padding-bottom: 70px; }
   #trabajos .row:nth-of-type(2) {
     padding-top: 20px; }
   #trabajos img {
@@ -127,7 +136,7 @@ section:first-of-type {
 #contact-us {
   background-color: #1d0215;
   color: #ffffff;
-  padding-top: 60px; }
+  padding-top: 80px; }
   #contact-us .iconos-redes {
     margin-bottom: 40px; }
   #contact-us a {
@@ -164,11 +173,12 @@ section:first-of-type {
   #contact-us hr {
     border-color: #ffffff; }
   #contact-us .col-md-2 {
-    padding: 80px 0 100px 0; }
+    padding: 80px 0 60px 0; }
 
 footer {
   background-color: #1d0219;
-  color: whitesmoke; }
+  color: whitesmoke;
+  padding: 15px 0; }
 
 /* Common style */
 figure {

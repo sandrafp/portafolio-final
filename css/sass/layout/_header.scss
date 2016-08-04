@@ -1,12 +1,13 @@
-header { position: fixed; width: 100%; z-index: 9999999; }
+header { position: fixed; width: 100%; z-index: 999999;}
 .navbar-default { 
 	background: transparent;
 	margin-bottom: 0; 
 	border: none;
 	.navbar-nav>li>a{ color:$blanco; &:hover, &:active, &:focus { color: #68042c; background-color: white; border:none; border-style: none;}}
 	
-	.navbar-toggle { background: $fade-in; &:focus { background: rgba(0,0,0,0.2); border: none; } }
-	// .navbar-toggle .collapsed {background:transparent; border-radius:none;}
+	.navbar-toggle { background: $fade-in; &:focus { background: rgba(0,0,0,0.2); border: none;} }
+	.navbar-toggle .collapsed {background:transparent; border: none;}
+	.navbar-header { border-color:transparent;}
 	button.navbar-toggle  {background:transparent; border-color: transparent; &:hover {background:transparent;}}
 }
-.navbar-default.nav-color-Two { background: $fade-in;; }
+.navbar-default.nav-color-Two { background: $fade-in; }
