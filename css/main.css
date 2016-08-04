@@ -142,12 +142,25 @@ section:first-of-type {
   #contact-us .fa {
     color: white;
     font-size: 60px; }
+    #contact-us .fa:hover {
+      -moz-transition: all 2.3s ease-in-out;
+      -webkit-transition: all 2.3s ease-in-out;
+      -o-transition: all 2.3s ease-in-out;
+      -ms-transition: all 2.3s ease-in-out;
+      transition: all 2.3s ease-in-out;
+      -moz-transform: rotateY(-360deg);
+      -webkit-transform: rotateY(-360deg);
+      o-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+      transform: rotateY(-360deg); }
   #contact-us .fa-twitter:hover {
     color: #36d8ff; }
   #contact-us .fa-phone:hover {
-    color: black; }
+    color: pink; }
   #contact-us .fa-linkedin-square:hover {
     color: #0077b6; }
+  #contact-us .fa-envelope-o:hover {
+    color: red; }
   #contact-us hr {
     border-color: #ffffff; }
   #contact-us .col-md-2 {
@@ -258,7 +271,9 @@ figure.effect-sadie:hover p {
     padding-top: 80px; } }
 @media (max-width: 980px) {
   #contact-us .col-md-2 {
-    padding: 0; } }
+    padding: 0; }
+    #contact-us .col-md-2 a.iconos-redes {
+      display: inline-block; } }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
